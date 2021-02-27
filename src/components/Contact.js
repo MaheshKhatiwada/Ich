@@ -1,14 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "../css/Contact.css";
 function Contact({name,phone,email}) {
     return (
         <div className="contact">
+            
             <h1>{name}</h1>
             <p>
-                Phone: <a href="#">{phone}</a>
+                Phone: <Link to="#">{phone}</Link>
             </p>
             <p>
-                Email: <a href="gmail.com">{email}</a>
+                Email: <Link to="#">{email}</Link>
             </p>
         </div>
     )

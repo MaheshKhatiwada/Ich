@@ -1,0 +1,15 @@
+.contact{
+    margin: 5rem;
+    height: auto;
+    width: 300px;
+    padding: 2rem;
+    box-shadow: -2px -2px 5px #babecc,2px 2px 5px #fff;
+}
+
+.contact>h1{
+    color:red;
+    margin-bottom: 1rem;
+}
+.contact>p{
+    margin:1rem 0;
+}
