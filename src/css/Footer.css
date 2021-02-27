@@ -1,0 +1,10 @@
+.footer{
+    position:fixed;
+    bottom:0;
+    height:3rem;
+    width: 98%;
+    text-align: center;
+    padding:1rem 0;
+    margin-bottom: 0.5rem;
+    box-shadow: -5px -5px 5px #fff,5px 5px 5px #babecc;
+}

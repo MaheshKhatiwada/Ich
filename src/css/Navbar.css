@@ -24,13 +24,16 @@
     align-items: center;
     padding:1rem;
     font-size: large;
-    box-shadow: -1px -1px 5px #fff,1px 1px 5px #babecc;
+    box-shadow: -2px -2px 5px #fff,2px 2px 5px #babecc;
     transition: all 0.2s ease-in-out;
     border-radius: 5rem;
 }
 .navbar__item a{
     text-decoration:none;
     
+}
+.navbar__item:hover{
+    box-shadow: inset -2px -2px 5px #fff,inset 2px 2px 5px #babecc; ;
 }
 
 .navbar__item:first-child{

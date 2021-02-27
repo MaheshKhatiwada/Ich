@@ -18,3 +18,6 @@
     box-shadow:-5px -5px 5px #fff,5px 5px 5px #babecc;
     text-shadow: 1px 1px 0 #fff;
 }
+.analyse>button:hover{
+    box-shadow: inset -5px -5px 5px #fff, inset 5px 5px 5px #babecc;
+}

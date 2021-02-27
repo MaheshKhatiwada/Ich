@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import About from "./components/About";
 import Result from "./components/Result";
+import Footer from './components/Footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Home />
            </Route>
           </Switch>
+          <Footer/>
         </BrowserRouter>
     </div>
   );
